@@ -13,7 +13,10 @@ public class hello {
 
 
         //data types
-        
+        double  sai =  5.6;
+        float s = 5.6f; // for floast o be considered as decimal f has to be appended
+        boolean  b = false;
+        long l = 48934l;
 
     }
 }
