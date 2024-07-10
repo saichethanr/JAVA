@@ -1,5 +1,8 @@
 public class hello {
     public static void main(String args[]){
+        
+        //hello world
+        System.out.println("hello world");
 
         //variables
         System.out.println(2+8);
