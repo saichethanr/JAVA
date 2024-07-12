@@ -13,22 +13,22 @@ public class hello {
 
 
         //data types
-        double  sai =  5.6;
-        float s = 5.6f; // for floast o be considered as decimal f has to be appended
-        boolean  b = false;
-        long l = 48934l;
+        // double  sai =  5.6;
+        // float s = 5.6f; // for floast o be considered as decimal f has to be appended
+        // boolean  b = false;
+        // long l = 48934l;
 
 
         //literals
-        int num = 167;
-        //binary
-        int n = 0b101;
-        //hexadecimal
-        int npp = 0x101;
-        int nll = 10_00_00_000;
-        double n7 = 12e10;
-        System.out.println(n);
-        System.out.println(nll);
+        // int num = 167;
+        // //binary
+        // int n = 0b101;
+        // //hexadecimal
+        // int npp = 0x101;
+        // int nll = 10_00_00_000;
+        // double n7 = 12e10;
+        // System.out.println(n);
+        // System.out.println(nll);
 
         //type conversion and type casting
         byte by = 127;
@@ -38,7 +38,7 @@ public class hello {
         System.out.println(by);
 
         float f = 5.6f;
-        int in = (int)f;
+        // int in = (int)f;
 
         //type promotion
         byte a = 10;
@@ -66,7 +66,58 @@ public class hello {
         int sh=0;
         sh = x%10==0 ? 10 :20;
         System.out.println(sh);
-        
+
+
+        //switch statement
+        int dayOfWeek = 3;
+        String dayName;
+
+        switch (dayOfWeek) {
+            case 1:
+                dayName = "Sunday";
+                break;
+            case 2:
+                dayName = "Monday";
+                break;
+            case 3:
+                dayName = "Tuesday";
+                break;
+            case 4:
+                dayName = "Wednesday";
+                break;
+            case 5:
+                dayName = "Thursday";
+                break;
+            case 6:
+                dayName = "Friday";
+                break;
+            case 7:
+                dayName = "Saturday";
+                break;
+            default:
+                dayName = "Invalid day";
+                break;
+        }
+
+        System.out.println("The day of the week is: " + dayName);
+
+
+
+        //while loops
+        int count = 1;
+        while (count <= 5) {
+            System.out.println("Count is: " + count);
+            count++;
+        }
+
+
+        //do while loop
+        int cnt = 1;
+
+        do {
+            System.out.println("Count is: " + count);
+            cnt++;
+        } while (cnt <= 5);
 
 
     }
