@@ -62,7 +62,11 @@ public class hello {
             System.out.println("no bhai");
         }
 
-
+        //ternary
+        int sh=0;
+        sh = x%10==0 ? 10 :20;
+        System.out.println(sh);
+        
 
 
     }
