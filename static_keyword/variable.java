@@ -15,7 +15,7 @@ class Mobile{
 }
 
 //acess the static variables using the class name itself as its common to all the objects of the class
-
+//no static methods can use the static variable
 public class variable {
     public static void main(String[] args) {
         Mobile obj1=new Mobile();
