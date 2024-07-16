@@ -26,6 +26,8 @@ public class multidarray {
 			System.out.println();
 		}
 		
+
+        //enchanced for loop
 		for(int n[]:nums){
 			for(int m:n)
 			{
