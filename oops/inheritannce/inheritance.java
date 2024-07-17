@@ -1,4 +1,4 @@
-package oops;
+package oops.inheritannce;
 
 //super class
 class Calc
