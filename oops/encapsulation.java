@@ -32,7 +32,7 @@ class Human
 	}
 	public void SetAge(int a)
 	{
-		age=a;
+		this.age=a;
 	}
 	
 	
@@ -42,7 +42,7 @@ class Human
 	}
 	public void setName(String n)
 	{
-		name=n;
+		this.name=n;
 	}
 }
 
