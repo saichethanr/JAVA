@@ -10,9 +10,15 @@ class Human
 	//private String name="Navin";
 	private String name;
 	
-
+    //default constructor
     public Human(){
         System.out.println("in constructor");
+    }
+
+    //parametierized constructor
+    public Human(int a,Human obj){
+        age=a;
+        this.name =obj.name;  
     }
 
 
@@ -37,7 +43,7 @@ class Human
 	}
 }
 
-
+//if we dont even mention the constructor java will create the default constructor
 
 public class constructors {
     public static void main(String[] args) {
