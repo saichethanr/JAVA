@@ -24,6 +24,8 @@ class Human
 	//private String name="Navin";
 	private String name;
 	
+
+	//getters and setters has to be used to return the private instance variables
 	public int getAge()
 	{
 		return age;
