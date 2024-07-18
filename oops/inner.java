@@ -2,6 +2,7 @@ package oops;
 
 class A
 {
+    //static can be only used for the inner class
 	int age;
 	
 	public void show()
