@@ -2,6 +2,7 @@ package oops;
 
 
 // Abstract class representing a vehicle
+//we cannot create a object of the abtract class
 abstract class Vehicle {
     private String brand;
     private String model;
