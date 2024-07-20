@@ -1,0 +1,2 @@
+1. we cannon extend any class to enum
+2. enum by defaults extends the enum class
