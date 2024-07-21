@@ -1,0 +1,2 @@
+1. lambda expresssion can only be used with interfaces witha single method
+2. paramenters can also  be passed to the lambfda expression which is to be created after the creation of the object
