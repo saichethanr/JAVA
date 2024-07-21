@@ -8,6 +8,7 @@ class A
 	{
 //    	try
 //    	{
+            //checked exeption
 //    		Class.forName("Calc");
 //    	}
 //    	catch(ClassNotFoundException e)
