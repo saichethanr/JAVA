@@ -1,3 +1,4 @@
 1.SAM - Single abstract method/Functional
 2.Normal (multiple abstract methood)
 3.Marker (empty interface)
+4. we can use the lambda expressions only in functuional interface
