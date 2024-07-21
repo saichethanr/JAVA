@@ -25,6 +25,11 @@ public class lambda_intro {
         //sigle line statements
         A obj1 = (int n) ->  System.out.println("in show");
         
+        // no need to mentioon the type all the time
+        A obj2 = (n) ->  System.out.println("in show");
+        
+        //for a single parameter no need to have a curly brackets
+        A obj3 = n ->  System.out.println("in show");
     
         obj.show(6);
         obj1.show(7);
