@@ -1,4 +1,4 @@
-package oops.interface_info;
+package interface_info;
 
 //use of an abstract class or an interface would work
 abstract class  computer {

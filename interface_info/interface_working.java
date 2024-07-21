@@ -1,4 +1,4 @@
-package oops.interface_info;
+package interface_info;
 
 // class - class -> extends
 // class - interface -> implements

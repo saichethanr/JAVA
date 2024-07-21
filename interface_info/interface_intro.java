@@ -1,4 +1,4 @@
-package oops.interface_info;
+package interface_info;
 
 //instead of creating an abstract class we can create a interface
 //BY DEFAULT EVERY METHOD IN INTEFACE IS A PUBLIC ABSTRACT METHOD
