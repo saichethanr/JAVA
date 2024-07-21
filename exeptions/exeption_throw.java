@@ -14,8 +14,11 @@ public class exeption_throw {
             try
             {
                 j=18/i;
-                if(j==0)
+                if(j==0){
                     throw new ArithmeticException("I don't want to do print zero");
+                    //a measage can be sent so that it can be printed
+                }
+                   
             }
     
             catch(ArithmeticException e)
