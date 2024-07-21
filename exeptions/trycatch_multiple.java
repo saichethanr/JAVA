@@ -30,7 +30,7 @@ public class trycatch_multiple {
     	{
     		System.out.println("Stay in your limit.");
     	}
-    	catch(Exception e)
+    	catch(Exception e) //parent of parent will be at the end
     	{
   
     		System.out.println("Something went wrong."+e);
