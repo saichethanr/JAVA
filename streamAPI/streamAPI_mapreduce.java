@@ -49,5 +49,8 @@ public class streamAPI_mapreduce {
         //,sorted has to be applied
         Stream<Integer>st=lst.stream().filter(n-> n%2==0)
         .map(n->n*2).sorted();
+
+        //to filter  it using the multiple threads -to fasten the process we need to use the parallel stream
+        //here we need not use the parallel stream as we want to keep the elements together
     }
 }
