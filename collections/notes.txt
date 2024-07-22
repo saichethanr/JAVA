@@ -1,0 +1,1 @@
+1.collections belongs to java.util pakage
