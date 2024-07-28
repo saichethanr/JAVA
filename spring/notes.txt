@@ -3,5 +3,8 @@ we are  responsible for the  creation of object and the maintainence of the obje
 by doing so we loose the concentration on buisness logic and not on the object creation. so someone else has to control the creatin of object
 To manage this in spring we have Ioc container. Spring will create objects for us and keep in this container
 
+How exactly we will make the above work?
 
-dependency injection
+
+Design Pattern : dependency injection
+all classes are created inside the Ioc container how do we inject in each other we we have to use them
