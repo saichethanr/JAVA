@@ -1,0 +1,12 @@
+spring vs spring boot
+
+on top of spring frame work we have got spring boot
+but why??
+
+it takes a lot of time configuring the spring framework
+hence on top of spring framework spring boot was developed
+
+
+in spring boot we dont need to do much config it just runs on the go
+
+to understand spring boot we have to understand the spring framework
