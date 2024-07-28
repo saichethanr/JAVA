@@ -1,0 +1,7 @@
+inversion of control : we are ok with the flow of the application but now with the object creation
+we are  responsible for the  creation of object and the maintainence of the object and destroying of the object
+by doing so we loose the concentration on buisness logic and not on the object creation. so someone else has to control the creatin of object
+To manage this in spring we have Ioc container. Spring will create objects for us and keep in this container
+
+
+dependency injection
